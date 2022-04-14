@@ -10,4 +10,9 @@ public class Gift {
 	public void addNote() {
 		hasNote = true;
 	}
+	
+	@Override
+	public int hashCode() {
+		return id;
+	}
 }
